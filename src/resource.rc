@@ -1,0 +1,30 @@
+#include <windows.h>
+
+VS_VERSION_INFO VERSIONINFO
+FILEVERSION 0,6,0,0
+PRODUCTVERSION 0,6,0,0
+FILEFLAGSMASK  	VS_FFI_FILEFLAGSMASK
+FILEFLAGS      	VS_FF_PRERELEASE
+FILEOS         	VOS__WINDOWS32
+FILETYPE       	(VFT_DLL)
+FILESUBTYPE    	VFT2_UNKNOWN
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904E4"
+        BEGIN
+            VALUE "FileDescription", "Video & audio editing via Avisynth\0"
+            VALUE "CompanyName", "Youka\0"
+            VALUE "FileVersion", "0, 6, 0, 0\0"
+            VALUE "InternalName", "FLuaG\0"
+            VALUE "LegalCopyright", "Youka, 2012\0"
+            VALUE "OriginalFilename", "FLuaG.dll\0"
+            VALUE "ProductName", "FLuaG\0"
+            VALUE "ProductVersion", "0, 6, 0, 0\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1252
+    END
+END
